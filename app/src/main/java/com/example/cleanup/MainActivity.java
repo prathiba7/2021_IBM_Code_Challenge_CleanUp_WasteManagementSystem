@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private Button buser,badmin;
+    private Button bworker;
     final private int REQ_PERMISSION=1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         buser=(Button)findViewById(R.id.user);
         badmin=(Button)findViewById(R.id.admin);
-
+        bworker=(Button)findViewById(R.id.worker);
 
         buser.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,7 +38,16 @@ public class MainActivity extends AppCompatActivity {
         );
 
 
+        bworker.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,WorkerActivity.class);
+                startActivity(intent);
+                finish();
+                return;
 
+            }
+        });
 
 
     }
