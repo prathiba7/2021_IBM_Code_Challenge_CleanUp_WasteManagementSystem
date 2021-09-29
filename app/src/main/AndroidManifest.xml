@@ -3,6 +3,7 @@
     package="com.example.cleanup">
 
     <uses-permission android:name="android.permission.CAMERA"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,14 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cleanup">
         <activity
-            android:name=".MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:name=".WorkerActivity"
+            android:exported="true" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".UserHomeActivity"
             android:exported="true" />
@@ -29,10 +25,15 @@
             android:name=".UserLoginActivity"
             android:exported="true" />
         <activity
-            android:name=".WorkerActivity"
+            android:name=".MainActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
