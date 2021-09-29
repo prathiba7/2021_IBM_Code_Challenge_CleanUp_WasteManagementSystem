@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="317dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="435dp"
+       android:textAlignment="center"
+
+        android:layout_marginLeft="100dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+</LinearLayout>
