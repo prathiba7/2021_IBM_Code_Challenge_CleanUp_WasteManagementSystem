@@ -24,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         buser=(Button)findViewById(R.id.user);
         badmin=(Button)findViewById(R.id.admin);
-        
-        bworker=(Button)findViewById(R.id.worker);
+
 
         buser.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         }
         );
 
-
+        bworker=(Button)findViewById(R.id.worker);
         bworker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
