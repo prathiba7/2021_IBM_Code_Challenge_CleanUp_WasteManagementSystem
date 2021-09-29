@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cleanup">
         <activity
+            android:name=".WorkerActivity"
+            android:exported="true" />
+        <activity
             android:name=".UserHomeActivity"
             android:exported="true" />
         <activity
