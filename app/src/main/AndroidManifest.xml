@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+
     package="com.example.cleanup" >
+
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -12,6 +14,7 @@
         android:label="CleanCity"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+
         android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
             android:name=".SplashScreen"
@@ -24,6 +27,16 @@
             </intent-filter>
         </activity>
 
+     
+        <activity
+            android:name=".UserSuccess"
+            android:exported="true" />
+        <activity
+            android:name=".WorkerSuccess"
+            android:exported="true" />
+        <activity
+            android:name=".WorkerActivity"
+            android:exported="true" />
         <activity
             android:name=".Uploadactivity"
             android:exported="true" />
@@ -41,6 +54,7 @@
             android:name=".AdminMapActivity"
             android:exported="true" >
         </activity>
+            android:exported="true" />
         <activity
             android:name=".UserHomeActivity"
             android:exported="true"
