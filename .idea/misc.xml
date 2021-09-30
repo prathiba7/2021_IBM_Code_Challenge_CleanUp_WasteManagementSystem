@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
+        <entry key="..\:/Users/HP/Desktop/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_admin.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_user_home.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_user_login.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/HP/Desktop/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem2/app/src/main/res/layout/activity_admin.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem2/app/src/main/res/layout/activity_admin_map.xml" value="0.209375" />
+        <entry key="..\:/Users/HP/Desktop/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem2/app/src/main/res/layout/activity_admin_maps.xml" value="0.209375" />
+        <entry key="..\:/Users/HP/Desktop/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem2/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/HP/Desktop/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem2/app/src/main/res/layout/activity_map2.xml" value="0.10648148148148148" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.18425925925925926" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_nav_header_main.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_succesfull_upload.xml" value="0.1" />
