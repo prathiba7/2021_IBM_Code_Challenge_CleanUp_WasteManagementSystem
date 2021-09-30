@@ -19,10 +19,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Admin"
+        android:textAllCaps="false"
 
 
         android:textStyle="bold"
-        android:background="@color/orange"
+        android:background="@color/black"
 
 
         />
@@ -30,6 +31,7 @@
 
     <Button
         android:id="@+id/user"
+        android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="User"
@@ -40,13 +42,14 @@
         tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="435dp"
        android:textAlignment="center"
-        android:background="@color/orange"
+        android:background="@color/black"
 
 
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/worker"
+        android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Worker"
@@ -57,7 +60,7 @@
         tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="435dp"
         android:textAlignment="center"
-        android:background="@color/orange"
+        android:background="@color/black"
 
 
         tools:ignore="MissingConstraints" />

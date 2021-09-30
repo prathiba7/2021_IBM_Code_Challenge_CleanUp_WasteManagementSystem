@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         bworker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,WorkerActivity.class);
+                Intent intent=new Intent(MainActivity.this,WorkerInfo.class);
                 startActivity(intent);
                 finish();
                 return;
