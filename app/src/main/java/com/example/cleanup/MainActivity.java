@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         buser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,UserHomeActivity.class);
+                Intent intent=new Intent(MainActivity.this,UserLoginActivity.class);
                 startActivity(intent);
                 finish();
                 return;
@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
         badmin.setOnClickListener(new View.OnClickListener() {
                                      @Override
                                      public void onClick(View view) {
-                                         Intent intent=new Intent(MainActivity.this,Admin.class);
+                                         Intent intent=new Intent(MainActivity.this,
+                                                 Admin.class);
                                          startActivity(intent);
                                          finish();
                                          return;
