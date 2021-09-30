@@ -17,7 +17,7 @@ public class Admin extends AppCompatActivity {
         loc.setOnClickListener(new View.OnClickListener() {
                                      @Override
                                      public void onClick(View view) {
-                                         Intent intent=new Intent(Admin.this,AdminMapsActivity.class);
+                                         Intent intent=new Intent(Admin.this,AdminMapActivity.class);
                                          startActivity(intent);
                                          finish();
                                          return;
