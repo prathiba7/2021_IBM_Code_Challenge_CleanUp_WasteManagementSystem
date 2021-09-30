@@ -29,6 +29,12 @@
 
      
         <activity
+            android:name=".AssignSuccess"
+            android:exported="true" />
+        <activity
+            android:name=".ListActivity"
+            android:exported="true" />
+        <activity
             android:name=".UserSuccess"
             android:exported="true" />
         <activity

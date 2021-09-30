@@ -5,37 +5,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UserSuccess"
-
+    android:layout_margin="10dp"
+    android:padding="5dp"
     android:orientation="vertical">
 
+
     <ImageView
-        android:layout_marginTop="50dp"
-        android:layout_width="242dp"
-        android:layout_height="240dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="202dp"
+        android:layout_height="200dp"
         android:layout_gravity="center"
         android:background="@drawable/ic_baseline_check_circle_outline_24" />
 
     <TextView
-        android:padding="1dp"
+        android:padding="3dp"
+        android:fontFamily="serif"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textStyle="bold"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="20dp"
         android:text="Successfully Uploaded"
         android:autoSizeTextType="uniform"
         android:minHeight="50sp"
-        android:textColor="#000"/>
+        android:textColor="#388E3C"/>
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textStyle="bold"
         android:padding="2dp"
-        android:layout_marginTop="70dp"
-        android:text="You have won 10 points"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="You have won \n10 points"
         android:autoSizeTextType="uniform"
-        android:minHeight="50sp"
+        android:minHeight="80sp"
+        android:fontFamily="serif"
         android:textColor="#EE6700"/>
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+           android:layout_marginTop="50dp"
+        android:fontFamily="serif"
+        android:text="Thank You for Your \nContribution"
+        android:textColor="#94000000"
+        android:textStyle="bold" />
 </LinearLayout>
