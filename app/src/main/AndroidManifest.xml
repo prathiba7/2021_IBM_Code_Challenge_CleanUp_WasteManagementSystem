@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.cleanup">
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:allowBackup="true"
@@ -10,7 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cleanup">
         <activity
+            android:name=".Uploadactivity"
+            android:exported="true" />
+        <activity
+            android:name=".SuccesfullUploadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserHomeFragmentActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".NavHeaderMain"
+            android:exported="true" />
+        <activity
             android:name=".UserHomeActivity"
+            android:theme="@style/AppTheme.NoActionBar"
             android:exported="true" />
         <activity
             android:name=".UserRegitserActivity"
