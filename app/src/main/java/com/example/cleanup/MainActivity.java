@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         buser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,UserLoginActivity.class);
+                Intent intent=new Intent(MainActivity.this,UserHomeActivity.class);
                 startActivity(intent);
                 finish();
                 return;

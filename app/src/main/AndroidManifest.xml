@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.cleanup">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -7,10 +8,12 @@
          location permissions for the "MyLocation" functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+   
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
 
     <application
         android:allowBackup="true"
@@ -32,14 +35,18 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:name=".Uploadactivity"
+            android:exported="true" />
+        <activity
+            android:name=".SuccesfullUploadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserHomeFragmentActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".NavHeaderMain"
+            android:exported="true" />
         <activity
             android:name=".AdminMapActivity"
             android:exported="true">
@@ -51,6 +58,7 @@
         </activity>
         <activity
             android:name=".UserHomeActivity"
+            android:theme="@style/AppTheme.NoActionBar"
             android:exported="true" />
         <activity
             android:name=".UserRegitserActivity"
@@ -69,6 +77,15 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDPU8QfGexlG1TQ1emQTdgddqLhuswroIM"/>
+
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 

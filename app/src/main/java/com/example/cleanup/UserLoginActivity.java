@@ -107,9 +107,9 @@ public class UserLoginActivity extends AppCompatActivity {
                             startActivity(new Intent(UserLoginActivity.this,UserRegitserActivity.class));
                             Toast.makeText(UserLoginActivity.this,"Verification Done",Toast.LENGTH_SHORT).show();
                             String user_id = mAuth.getCurrentUser().getUid();
-                            DatabaseReference current_user_db = FirebaseDatabase.getInstance().getReference().child("Users").child("Riders").child(user_id);
+                            DatabaseReference current_user_db = FirebaseDatabase.getInstance().getReference().child("Users").child(user_id);
                             current_user_db.setValue(true);
-                            DatabaseReference current_user_ph = FirebaseDatabase.getInstance().getReference().child("Users").child("Riders").child(user_id).child("Phoneno");
+                            DatabaseReference current_user_ph = FirebaseDatabase.getInstance().getReference().child("Users").child(user_id).child("Phoneno");
                             current_user_ph.setValue(mphno.getText().toString());
                         }
                         else {

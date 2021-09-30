@@ -30,7 +30,7 @@ public class UserRegitserActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 String user_id = FirebaseAuth.getInstance().getCurrentUser().getUid();
-                DatabaseReference ref= FirebaseDatabase.getInstance().getReference().child("Users").child("Riders").child(user_id);
+                DatabaseReference ref= FirebaseDatabase.getInstance().getReference().child("Users").child(user_id);
                 if (!name.getText().toString().equals("")&&!address.getText().toString().equals("")) {
                     DatabaseReference current_user_name = ref.child("Name");
                     current_user_name.setValue(name.getText().toString());
@@ -38,9 +38,9 @@ public class UserRegitserActivity extends AppCompatActivity {
                     current_user_address.setValue(name.getText().toString());
 
 
-                    startActivity(new Intent(UserRegitserActivity.this, UserHomeActivity.class));
-                    finish();
-                    return;
+                    Intent intent=new Intent(UserRegitserActivity.this,UserHomeActivity.class);
+                    startActivity(intent);
+
                 } else {
                     Toast.makeText(UserRegitserActivity.this, "Some fields are left blank", Toast.LENGTH_SHORT).show();
                 }
