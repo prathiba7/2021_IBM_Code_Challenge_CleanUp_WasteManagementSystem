@@ -3,16 +3,20 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:background="@drawable/backwhite"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Notification"
+        android:text="Notifications"
         android:textStyle="bold"
-        android:textSize="30dp"
+        android:textSize="25dp"
+        android:background="@color/cardview_light_background"
+        android:textColor="@color/black"
         android:padding="10dp"/>
     <LinearLayout
         android:layout_width="wrap_content"
+        android:background="@color/cardview_light_background"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
@@ -20,6 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Type :"
+
+            android:textColor="@color/black"
             android:paddingLeft="10dp"
             android:paddingTop="20dp"
             android:paddingBottom="10dp"
@@ -28,6 +34,7 @@
             />
         <TextView
             android:layout_width="wrap_content"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"
             android:text="Non biodegradable dump"/>
     </LinearLayout>
@@ -37,6 +44,7 @@
         android:src="@drawable/ic_baseline_phone_android_24"/>
     <LinearLayout
         android:layout_width="wrap_content"
+        android:background="@color/cardview_light_background"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
@@ -45,35 +53,43 @@
             android:layout_height="wrap_content"
             android:text="Location :"
             android:padding="10dp"
+            android:textColor="@color/black"
             android:textStyle="bold"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Palakkad"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Location"
+            android:background="#ee6700"
             android:layout_marginLeft="10dp"
             android:id="@+id/loc"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
+        android:background="@color/cardview_light_background"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="10dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Accept"
+            android:text="Assign"
+            android:background="#388e3c"
             android:layout_weight="1"
+            android:layout_margin="5dp"
             />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reject"
-            android:layout_weight="1"/>
+            android:text="x"
+            android:background="#ee00"
+            android:layout_margin="5dp"
+            android:layout_weight="6"/>
     </LinearLayout>
 
 </LinearLayout>
