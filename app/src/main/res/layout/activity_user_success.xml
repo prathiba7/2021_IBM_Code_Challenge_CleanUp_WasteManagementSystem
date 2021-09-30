@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserSuccess"
+
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="242dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_baseline_check_circle_outline_24" />
+
+    <TextView
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:text="Successfully Uploaded"
+        android:autoSizeTextType="uniform"
+        android:minHeight="50sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_marginTop="70dp"
+        android:text="You have won 10 points"
+        android:autoSizeTextType="uniform"
+        android:minHeight="50sp"
+        android:textColor="#EE6700"/>
+</LinearLayout>

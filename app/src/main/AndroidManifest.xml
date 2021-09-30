@@ -3,10 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.cleanup">
 
-
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA"/>
-
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -15,8 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Cleanup">
-
-
+        <activity
+            android:name=".UserSuccess"
+            android:exported="true" />
+        <activity
+            android:name=".WorkerSuccess"
+            android:exported="true" />
+        <activity
+            android:name=".WorkerActivity"
+            android:exported="true" />
         <activity
             android:name=".Uploadactivity"
             android:exported="true" />
@@ -32,13 +37,11 @@
             android:exported="true" />
         <activity
             android:name=".AdminMapActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".UserHomeActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".UserRegitserActivity"
             android:exported="true" />
@@ -48,8 +51,6 @@
         <activity
             android:name=".Admin"
             android:exported="true" />
-
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -60,6 +61,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
-
-
