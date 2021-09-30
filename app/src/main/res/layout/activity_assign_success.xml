@@ -3,28 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".WorkerSuccess"
-    android:orientation="vertical">
+    tools:context=".AssignSuccess">
 
     <ImageView
         android:layout_width="178dp"
-        android:layout_height="143dp"
+        android:layout_height="159dp"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/good" />
+        android:layout_marginTop="80dp"
+        android:background="@drawable/ic_baseline_check_circle_outline_24" />
 
-    <TextView
-        android:padding="3dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:layout_marginTop="40dp"
-        android:text="Successfully Uploaded"
-        android:autoSizeTextType="uniform"
-        android:minHeight="50sp"
-        android:textColor="#388E3C"/>
+
 
 
     <TextView
@@ -33,8 +23,9 @@
         android:gravity="center"
         android:textStyle="bold"
         android:layout_marginTop="40dp"
-        android:text="Keep Up the \nGood Work!!"
+        android:text="Worker Assigned\nSuccessfully"
         android:autoSizeTextType="uniform"
         android:minHeight="50sp"
         android:textColor="#EE6700"/>
+
 </LinearLayout>
