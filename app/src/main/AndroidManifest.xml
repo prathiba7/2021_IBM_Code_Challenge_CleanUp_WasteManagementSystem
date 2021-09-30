@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-
-    package="com.example.cleanup" >
-
+    package="com.example.cleanup">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -14,20 +12,22 @@
         android:label="CleanCity"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
-        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".AdminSchedule"
+            android:exported="true" />
+        <activity
+            android:name=".AdminListViewActivity"
+            android:exported="true" />
         <activity
             android:name=".SplashScreen"
-            android:exported="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-     
         <activity
             android:name=".AssignSuccess"
             android:exported="true" />
@@ -58,8 +58,6 @@
             android:exported="true" />
         <activity
             android:name=".AdminMapActivity"
-            android:exported="true" >
-        </activity>
             android:exported="true" />
         <activity
             android:name=".UserHomeActivity"
@@ -76,8 +74,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

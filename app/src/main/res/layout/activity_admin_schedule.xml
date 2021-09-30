@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminSchedule"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Worker"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="Garbage  collector Group"
+        android:layout_margin="30dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/collector"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="30dp"
+        android:background="#000"
+        android:text="Jung Dealers"
+        android:textColor="#fff" />
+
+
+
+</LinearLayout>

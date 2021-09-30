@@ -39,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
         badmin.setOnClickListener(new View.OnClickListener() {
                                      @Override
                                      public void onClick(View view) {
-                                         Intent intent=new Intent(MainActivity.this,
-                                                 Admin.class);
+                                         Intent intent=new Intent(MainActivity.this,ListActivity.class);
                                          startActivity(intent);
                                          finish();
                                          return;

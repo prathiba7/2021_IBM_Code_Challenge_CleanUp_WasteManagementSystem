@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Notification"
+        android:text="Dump from Akathethara"
         android:textStyle="bold"
         android:textSize="30dp"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/waste"
+        android:id="@+id/imgwaste"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location :"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akathethara"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,55 +54,56 @@
             android:paddingBottom="10dp"
             android:paddingRight="10dp"
             android:textStyle="bold"
+            android:textColor="@color/black"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Non biodegradable dump"/>
+            android:text="Non biodegradable dump"
+            android:textColor="@color/black"/>
     </LinearLayout>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@drawable/ic_baseline_phone_android_24"/>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:gravity="center"
+        android:orientation="vertical">
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/uploadtimgtxt"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Location :"
-            android:padding="10dp"
-            android:textStyle="bold"
+            android:text="Tap to show route"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
             />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Palakkad"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Location"
-            android:layout_marginLeft="10dp"
-            android:id="@+id/loc"/>
-    </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/loc"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_location_on_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="60dp"
+        android:layout_margin="20dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Accept"
-            android:layout_weight="1"
+
+            android:layout_weight="2"
+            android:id="@+id/accept"
             />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reject"
-            android:layout_weight="1"/>
+            android:text="Close"
+            android:layout_weight="2"
+            android:id="@+id/reject"/>
     </LinearLayout>
 
 </LinearLayout>

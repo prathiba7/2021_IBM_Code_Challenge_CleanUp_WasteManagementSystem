@@ -78,7 +78,7 @@ public class UserHomeFragmentActivity extends Fragment {
 //                        DatabaseReference current_user_name = ref.child("Location");
 //                        current_user_name.setValue(loc.getText().toString());
 //                    }
-                    Intent intent=new Intent(getActivity().getBaseContext(),SuccesfullUploadActivity.class);
+                    Intent intent=new Intent(getActivity().getBaseContext(),UserSuccess.class);
                     startActivity(intent);
                 }
                 else{
