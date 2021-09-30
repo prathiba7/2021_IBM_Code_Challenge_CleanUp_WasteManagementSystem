@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Cleanup</string>
+    <string name="title_activity_admin_maps">AdminMapsActivity</string>
 </resources>
