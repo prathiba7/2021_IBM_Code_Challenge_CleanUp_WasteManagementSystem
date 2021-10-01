@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".UserHomeFragmentActivity"
     android:layout_marginTop="70sp"
-    android:orientation="vertical"
-    android:background="@color/white">
+    android:orientation="vertical">
 
 
 
@@ -22,7 +21,8 @@
             android:layout_width="100sp"
             android:layout_height="100sp"
             android:layout_centerInParent="true"
-            android:src="@drawable/ic_baseline_add_a_photo_24" />
+            android:src="@drawable/ic_baseline_add_a_photo_24"
+            />
 
 
     </RelativeLayout>
@@ -50,18 +50,16 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <Button
             android:id="@+id/uploadbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_marginLeft="25sp"
             android:layout_marginTop="50sp"
             android:layout_marginRight="25sp"
-            android:textAllCaps="false"
-            android:background="@color/cardview_dark_background"
-            android:text="Upload Image"
-            android:textColor="@color/white" />
+            android:layout_marginLeft="25sp"
+            android:textColor="#fff"
+            android:background="@color/orange"
+            android:text="Upload Image"/>
     </RelativeLayout>
 </LinearLayout>

@@ -20,7 +20,7 @@
                 android:id="@+id/tool_bar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="@color/cardview_dark_background"
+                android:background="@color/orange"
                 app:popupTheme="@style/AppTheme.PopupOverlay"/>
         </com.google.android.material.appbar.AppBarLayout>
 
