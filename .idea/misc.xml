@@ -15,6 +15,7 @@
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.18425925925925926" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_admin.xml" value="0.22" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_admin_schedule.xml" value="0.13949275362318841" />
+        <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_assign_success.xml" value="0.1" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_list.xml" value="0.18" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_nav_header_main.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_succesfull_upload.xml" value="0.1" />
@@ -23,6 +24,8 @@
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_user_home_fragment.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_user_login.xml" value="0.1" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_user_success.xml" value="0.13949275362318841" />
+        <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_worker_info.xml" value="0.1" />
+        <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/activity_worker_list.xml" value="0.16" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/fragment_user_home_activity.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/2021_IBM_Code_Challenge_CleanUp_WasteManagementSystem/app/src/main/res/layout/mobile_navigation.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/Prathibha/AndroidStudioProjects/Cleanup/app/src/main/res/layout/activity_main.xml" value="0.11639492753623189" />
