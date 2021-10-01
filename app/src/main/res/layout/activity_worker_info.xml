@@ -18,8 +18,8 @@
         android:layout_width="wrap_content"
         android:background="@color/cardview_light_background"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_margin="10dp"
+        android:orientation="horizontal"
         >
         <TextView
             android:layout_width="match_parent"
@@ -45,9 +45,9 @@
         android:src="@drawable/grbg"/>
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_margin="10dp"
         android:background="@color/cardview_light_background"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="horizontal"
         >
         <TextView
@@ -68,37 +68,22 @@
             android:layout_height="wrap_content"
             android:text="Location"
             android:background="@color/cardview_dark_background"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
             android:textAllCaps="false"
-
-            android:id="@+id/loc"/>
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/loc1"/>
     </LinearLayout>
-    <LinearLayout
+    <Button
         android:layout_width="match_parent"
-        android:background="@color/cardview_light_background"
+        android:layout_margin="10dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="0dp">
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Assign"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:background="#388e3c"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="x"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:background="#ee00"
-            android:layout_margin="5dp"
-            android:layout_weight="6"/>
-    </LinearLayout>
+        android:text="Mark as done"
+        android:background="#388e3c"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        android:id="@+id/mark"/>
+
 
 </LinearLayout>

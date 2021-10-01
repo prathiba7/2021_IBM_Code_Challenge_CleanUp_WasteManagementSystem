@@ -67,16 +67,19 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Button
             android:id="@+id/uploadbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+            android:layout_marginLeft="25sp"
             android:layout_marginTop="50sp"
             android:layout_marginRight="25sp"
-            android:layout_marginLeft="25sp"
-            android:textColor="#fff"
-            android:background="@color/orange"
-            android:text="Upload Image"/>
+            android:background="@color/cardview_dark_background"
+            android:text="Upload Image"
+
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
     </RelativeLayout>
 </LinearLayout>
